@@ -27,3 +27,7 @@ include = ["openphysiohub*"]
 
 [tool.setuptools.package-data]
 "openphysiohub" = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
