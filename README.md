@@ -137,16 +137,23 @@ For bug reports and feature requests, open an issue on GitHub.
 
 ---
 
+## Affiliation
+
+OpenPhysioHub is developed at the [Laboratory for Experimental Research in Behavior (LERB)](https://www.unil.ch/ssp/fr/home/ressources/espaces/espace-chercheur-euses/infrastructures/lerb.html), University of Lausanne (UNIL), Switzerland.
+
+---
+
 ## Citation
 
 If you use OpenPhysioHub in published research, please cite:
 
 ```bibtex
 @software{openphysiohub,
-  title   = {{OpenPhysioHub}: A Python package for physiological data acquisition in experimental psychology},
-  author  = {OpenPhysioHub Contributors},
-  year    = {2026},
-  url     = {https://github.com/your-org/OpenPhysioHub}
+  title       = {{OpenPhysioHub}: A Python package for physiological data acquisition in experimental psychology},
+  author      = {Fournier, Hippolyte and Ruggeri, Paolo and Dan-Glauser, Elise},
+  year        = {2026},
+  institution = {Laboratory for Experimental Research in Behavior (LERB), University of Lausanne},
+  url         = {https://github.com/hippolytefournier/openphysiohub}
 }
 ```
 
