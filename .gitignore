@@ -1,0 +1,49 @@
+# ── Proprietary SR Research files (EyeLink SDK) ──────────────────────────────
+# CalibrationGraphicsPygame.py and audio assets are distributed with the
+# EyeLink Developers Kit and may NOT be redistributed.
+# Obtain them from: https://www.sr-support.com/
+eye_tracking_library/CalibrationGraphicsPygame.py
+eye_tracking_library/__pycache__/
+eye_tracking_library/*.wav
+eye_tracking_library/*.pyc
+
+# ── RTBox driver (no open-source license) ────────────────────────────────────
+# Obtain from: https://github.com/xiangruili/RTBox_py
+button_box_library/RTBox.py
+button_box_library/__pycache__/
+button_box_library/*.pyc
+
+# ── InpOut32 binaries ─────────────────────────────────────────────────────────
+# Obtain from: https://www.highrez.co.uk/downloads/inpout32/
+biopac_input_library/*.dll
+
+# ── PyGaze mpydev.py (GPL v3 — incompatible with MIT) ────────────────────────
+# Kept locally as a reference only; see biopac_library/README.md
+biopac_library/mpydev.py
+
+# ── BIOPAC mpdev.dll is system-installed, never in the repo ──────────────────
+# Install: BIOPAC Hardware API 2.2 Research from https://www.biopac.com/
+
+# ── Python / build artefacts ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Data (participant recordings — never commit) ─────────────────────────────
+data/
+*.edf
+*.json
+
+# ── Environment ───────────────────────────────────────────────────────────────
+.venv/
+venv/
+.env
+
+# ── OS noise ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

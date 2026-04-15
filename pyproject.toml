@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openphysiohub"
+version = "0.1.0"
+description = "Physiological signal acquisition and analysis for experimental psychology"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.24",
+    "pyserial>=3.5",
+    "pygame>=2.4",
+    "matplotlib>=3.7",
+    "pylink-sr-research>=2.1",   # SR Research EyeLink SDK wrapper
+]
+
+[project.scripts]
+openphysiohub = "openphysiohub.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["openphysiohub*"]
+
+[tool.setuptools.package-data]
+"openphysiohub" = ["py.typed"]
