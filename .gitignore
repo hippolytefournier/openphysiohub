@@ -44,6 +44,9 @@ data/
 venv/
 .env
 
+# ── Claude Code context (local only) ─────────────────────────────────────────
+CLAUDE.md
+
 # ── OS noise ──────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
